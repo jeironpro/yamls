@@ -1,0 +1,19 @@
+TIPUS DE DADES BÀSICS PYTHON:
+  - PRIMITIUS:               TIPUS           Sintaxis
+    - Entero              -> int          -> 10
+    - Floatante           -> float        -> 3.14
+    - Cadena de text      -> str          -> "Hola"
+    - Boolean             -> bool         -> True/False
+    - Complexo            -> complex      -> 1 + 2j
+    - Byte                -> bytes        -> b"Hola"
+    - Nulo                -> NoneType     -> None
+  
+  - ESTRUCTURES:
+    - Llista / Pila       -> list         -> [1, 2, 3]
+    - Tupla               -> tuple        -> (1, 2, 3)
+    - Conjunt             -> set          -> {1, 2, 3}
+    - Conjunt inmutable   -> fronzenset   -> fronzenset({1, 2, 3})
+    - Diccionari          -> dict         -> {"calu" "valor"}
+    - Bytearray           -> bytearray    -> bytearray(5)
+    - Rang                -> range        -> range(5)
+    - Memory view         -> memoryview   -> memoryview(bytes(5))

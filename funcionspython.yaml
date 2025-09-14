@@ -1,0 +1,48 @@
+FUNCIONS PYTHON:
+  - print()                          -> # Mostra per pantalla estandard en la consola
+  - input()                          -> # Permet l'entrada de dades en la consola 
+  - len()                            -> # Retorna la quantitat d'elements
+  - type()                           -> # Retorna el tipus de dades
+  - range()                          -> # Genera una sequencia de nombres en el rang especificat
+  - int(), float(), str()            -> # Converteix al tipus de dades corresponent
+  - list(), tuple(), set(), dict()   -> # Crear o converteix a col·leccions
+  - sum()                            -> # Suma tots els elements iterables
+  - min(), max()                     -> # Troba el minin i el maxim respectivament
+  - sorted()                         -> # Ordena elements de conjunts de dades iterables
+  - abs()                            -> # Retorna el valor absolut d'un nombre
+  - round()                          -> # Redondea un nombre amb decimals concrets
+  - map()                            -> # Aplica una funció a cada element iterat
+  - filter()                         -> # Filtra elements iterables segons una condició
+  - reduce()                         -> # Aplica una funció als elements iterables per reduir-los a un ùnic valor
+  - enumarate()                      -> # Agrega un index a cada element iterable
+  - zip()                            -> # Uneix iterables en parelles d'elements
+  - open()                           -> # Obre un fitxer per llegeix, escriu o modificar
+  - isinstance()                     -> # Comprova si una variable és d'un tipus concret
+  - issubclass()                     -> # Comprova relacions entre classes
+  - hesattr()                        -> # Verifica si un objecte té un atribut
+  - getattr()                        -> # Obté el valor d'un atribut
+  - setattr()                        -> # Assigna un valor a un atribut
+  - delattr()                        -> # Elimina un atribut d'un objecte
+  - help()                           -> # Mostra la documentació d'un objecte o mòdul
+  - id()                             -> # Retorna la identificació ùnica en memoria
+  - next()                           -> # Retorna el seguent valor d'un iterator
+  - iter()                           -> # Transforma un iterable en un iterator
+  - chr(), ord()                     -> # Treballa amb valors Unicode de caràcters
+  - bin(), oct(), hex()              -> # Converteix valors a les diferents representacions bases
+  - any(), all()                     -> # Avalua condicions en iterables pel menys un o tots els elements
+  - pow()                            -> # Calcula una potència
+  - divmod()                         -> # Retorna el cociente i el resto d'una divisió
+  - copy()                           -> # Crea una copia superficial d'un objecte
+  - eval()                           -> # Executa una expressió en forma de cadena
+  - exec()                           -> # Executa un bloque de codi en forma de cadena
+  - format()                         -> # Formatea cadenes amb valors personalitzats
+  - reversed()                       -> # Inverteix l'ordre d'un iterable 
+  - slice()                          -> # Crea una porció d'un iterable sense modificar-ho
+  - callable()                       -> # Verifica si és invocable com una funció
+  - dir()                            -> # Mostra els atributs i mètodes d'un objecte
+  - frozenset()                      -> # Crea un conjunt inmutable
+  - complex()                        -> # Crea números complexos
+  - bool()                           -> # Transforma un valor en boolean
+  - super()                          -> # Retorna un proxy que delega en la superclasse
+  - globals()                        -> # Retorna les variables globals
+  - locals()                         -> # Retorna les variables locals

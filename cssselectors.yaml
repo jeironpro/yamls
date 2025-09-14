@@ -1,0 +1,10 @@
+CSS SELECTORS:
+  · *                -> Universal Selector
+  · id               -> ID Selector 
+  · class            -> Class Selector
+  · h1, p            -> Type Selector
+  · h1+p             -> Adjacent Sibling Selector
+  · ul > li          -> Child Selector
+  · h1 ~ p           -> General Sibling Selector
+  · li a             -> Descendant Selector
+  · div[att="val"]   -> Attribute Selector

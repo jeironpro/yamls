@@ -1,0 +1,31 @@
+FUNCIONS DE CADENES EN PYTHON:
+  - .capitalize()                                       -> #
+  - .casefold()                                         -> #
+  - .center(valor)                                      -> #
+  - .count('caracter')                                  -> #
+  - .encode()                                           -> #
+  - .endswith('fragment cadena')                        -> #
+  - .expandtabs(valor)                                  -> #
+  - .find('fragment cadena')                            -> #
+  - .format(format)                                     -> #
+  - .index('fragment cadena')                           -> #
+  - .split(separador)                                   -> #
+  - .replace('fragment a reemplaçar', 'fragment nou')   -> #
+  - .isdigit()                                          -> #
+  - .isalpha()                                          -> #
+  - .zfill()                                            -> #
+  - .upper()                                            -> #
+  - .swapcase()                                         -> #
+  - .isalnum()                                          -> #
+  - .isascii()                                          -> #
+  - .isdecimal()                                        -> #
+  - .isidentifier()                                     -> #
+  - .islower()                                          -> #
+  - .isprintable()                                      -> #
+  - .isspace()                                          -> #
+  - .maketrans()                                        -> #
+  - .rjust(valor)                                       -> #
+  - .rpartition('caracter')                             -> #
+  - .startswith('fragment cadena')                      -> #
+  - .rsplit('caracter')                                 -> #
+  - .splitlines()                                       -> #

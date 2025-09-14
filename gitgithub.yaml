@@ -1,0 +1,35 @@
+COMANDES GIT:
+  # Inicialització
+  - git init                         # Inicialitza un nou repositori Git
+  - git clone <repo-url>             # Clona un repositori des d'una URL
+
+  # Desenvolupament diari
+  - git status                       # Mostrar l'estat del canvis al repositori local
+  - git add  <fitxer> - <.(all)>     # Afegeix canvis a l'àrea de preparació
+  - git commit -m "Missatge"         # Confirma els canvis amb un missatge (crea una instància dels canvis)
+
+  # Gestió de branques
+  - git branch                       # Llista de branques
+  - git branch <nom-branca>          # Crea una nova branca
+  - git switch <nom-branca>          # Canvia a una branca
+  - git branch -d <nom-branca>       # Elimina una branca
+
+  # Integració i col·laboració
+  - git merge <branca>               # Fusiona els canvis d'una branca
+  - git remote add <nom> <url>       # Afegeix un repositori remote
+  - git push <remote> <branca>       # Envia els canvis a un repositori remote
+  - git pull <remote> <branca>       # Obté i fusiona canvis des d'un repositori remote
+
+  # Recuperació i neteja
+  - git fecth                        # Recupera canvis sense fusionar
+  - git reset --hard HEAD            # Rebutja tots els canvis locals
+  - git revert <hash-commit>         # Reverteix els canvis d'un commit
+
+
+  # Avançat i utilitats
+  - git diff <a> <b>                 # Compara dos commit, branques o fitxers
+  - git show <hash>                  # Mostra detalls d'un commit
+  - git stash                        # Guarda canvis temporals i neteja l'arbre de treball
+  - git stath pop                    # Restaura els canvis guardats del stash
+  - git cherry-pick <hash>           # Aplica un commit específic en la branca actual
+  - git rebase <base>                # Reaplica commits sobre altra base

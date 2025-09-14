@@ -1,0 +1,39 @@
+JAVA VS PYTHON:
+  - Java
+    · Java és un llenguatge compilat.
+    · Java està escrit estàticament.
+    · Corba d'aprenentatge complexa.
+    · Múltiples herències es realitzen parcialment a través d'interfícies.
+    · Utilitza bràquets arrissats per definir l'inici i el final de cada funció i definició de classe.
+    · El programa Java s'executa lentament en comparació amb Python.
+    · Qualsevol ordinador o dispositiu mòbil que sigui capaç d'executar la màquina virtual Java pot executar una aplicació Java.
+    · Grans biblioteques.
+    · Àmpliament utilitzat.
+    · Eines excel·lents
+    · Gran quantitat de documentació disponible.
+    · Java és el millor per a aplicacions d'usuari. Incrusta sistemes, serveis d'aplicacions web, etc.
+
+    - Frameworks del dorsal
+      Primavera, Blade.
+
+    - Biblioteques d'aprenentatge automàtic
+      Weka, Mallet, Deeplearning4j, MOA.
+
+  - Python
+    · Python és un llenguatge interpretat.
+    · Python està escrit dinàmicament.
+    · Fàcil d'aprendre i utilitzar.
+    · Ofereix tant herències úniques com múltiples.
+    · Python utilitza el sagnat per separar el codi en blocs de codi.
+    · Els programes Python s'executen més ràpid que Java.
+    · Els programes Python necessiten un intèrpret instal·lat a la màquina de destinació per traduir el codi Python. En comparació amb Java, Python és menys portàtil.
+    · Codi llegible.
+    · Ràpid desenvolupament.
+    · Codi bonic.
+    · Python és excel·lent per a la computació científica i numèrica, aplicacions d'aprenentatge automàtic, més.
+
+    - Frameworks del dorsal
+      Django, Flask.
+
+    - Biblioteques d'aprenentatge automàtic
+      Tensorflow, Pytorch.
