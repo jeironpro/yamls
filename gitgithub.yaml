@@ -1,46 +1,46 @@
 COMANDES GIT:
   # Inicialització
-  - git init                            # Inicialitza un nou repositori Git
-  - git clone <repo-url>                # Clona un repositori des d'una URL
+  - git init:                             Inicialitza un nou repositori Git
+  - git clone <repo-url>:                 Clona un repositori des d'una URL
 
   # Desenvolupament diari
-  - git status                          # Mostrar l'estat del canvis al repositori local
-  - git add  <fitxer> - <.(all)>        # Afegeix canvis a l'àrea de preparació
-  - git commit -m "missatge"            # Confirma els canvis amb un missatge (crea una instància dels canvis)
+  - git status:                           Mostrar l'estat del canvis al repositori local
+  - git add  <fitxer> - <.(all)>:         Afegeix canvis a l'àrea de preparació
+  - git commit -m "missatge":             Confirma els canvis amb un missatge (crea una instància dels canvis)
 
   # Gestió de branques
-  - git branch                           # Llista de branques
-  - git branch <nom-branca>              # Crea una nova branca
-  - git switch <nom-branca>              # Canvia a una branca
-  - git branch -d <nom-branca>           # Elimina una branca
+  - git branch:                           Llista de branques
+  - git branch <nom-branca>:              Crea una nova branca
+  - git switch <nom-branca>:              Canvia a una branca
+  - git branch -d <nom-branca>:           Elimina una branca
 
   # Integració i col·laboració
-  - git merge <branca>                   # Fusiona els canvis d'una branca
-  - git remote add <nom> <url>           # Afegeix un repositori remote
-  - git push <remote> <branca>           # Envia els canvis a un repositori remote
-  - git pull <remote> <branca>           # Obté i fusiona canvis des d'un repositori remote
+  - git merge <branca>:                   Fusiona els canvis d'una branca
+  - git remote add <nom> <url>:           Afegeix un repositori remote
+  - git push <remote> <branca>:           Envia els canvis a un repositori remote
+  - git pull <remote> <branca>:           Obté i fusiona canvis des d'un repositori remote
 
   # Recuperació i neteja
-  - git fecth                            # Recupera canvis sense fusionar
-  - git reset --hard HEAD                # Rebutja tots els canvis locals
-  - git revert <hash-commit>             # Reverteix els canvis d'un commit
-  - git reset --soft HEAD~1              # Elimina l'últim commit (sense perdre els canvis)
-  - git reset --hard HEAD~1              # Elimina l'últim commit (i també els canvis del commit)
-  - git reset --hard <hash del commit>   # Restaura tots els arxius i commits a l'estat d'aquest commit  
-  - git push origin "branca" --force     # Penjar els canvis al repositori remot (sobreescrivint al remot)
-  - git log --<ruta/archivo>             # Per veure l'historial i localitzar el commit on l'arxiu estava be
+  - git fecth:                            Recupera canvis sense fusionar
+  - git reset --hard HEAD:                Rebutja tots els canvis locals
+  - git revert <hash-commit>:             Reverteix els canvis d'un commit
+  - git reset --soft HEAD~1:              Elimina l'últim commit (sense perdre els canvis)
+  - git reset --hard HEAD~1:              Elimina l'últim commit (i també els canvis del commit)
+  - git reset --hard <hash del commit>:   Restaura tots els arxius i commits a l'estat d'aquest commit  
+  - git push origin "branca" --force:     Penjar els canvis al repositori remot (sobreescrivint al remot)
+  - git log --<ruta/archivo>:             Per veure l'historial i localitzar el commit on l'arxiu estava be
 
   # Creació de versió
-  - git tag "versio"                     # Crea una etiqueta con el nombre de versió
-  - git push origin "versio"             # Penja la etiqueta en el repositori remot
-  - git tag -d "versio"                  # Elimina la etiqueta en el repositori local
-  - git push origin --delete "versio"    # Elemina la etiqueta en el repositori remot
+  - git tag "versio":                     Crea una etiqueta con el nombre de versió
+  - git push origin "versio":             Penja la etiqueta en el repositori remot
+  - git tag -d "versio":                  Elimina la etiqueta en el repositori local
+  - git push origin --delete "versio":    Elemina la etiqueta en el repositori remot
 
   # Avançat i utilitats
-  - git diff <a> <b>                     # Compara dos commit, branques o fitxers
-  - git show <hash>                      # Mostra detalls d'un commit
-  - git stash                            # Guarda canvis temporals i neteja l'arbre de treball
-  - git stath pop                        # Restaura els canvis guardats del stash
-  - git cherry-pick <hash>               # Aplica un commit específic en la branca actual
-  - git rebase <base>                    # Reaplica commits sobre altra base
-  - git reflog                           # Per veure l'historial recent i mostrar tots els moviments recents del HEAD, incloent commits i resets
+  - git diff <a> <b>:                     Compara dos commit, branques o fitxers
+  - git show <hash>:                      Mostra detalls d'un commit
+  - git stash:                            Guarda canvis temporals i neteja l'arbre de treball
+  - git stath pop:                        Restaura els canvis guardats del stash
+  - git cherry-pick <hash>:               Aplica un commit específic en la branca actual
+  - git rebase <base>:                    Reaplica commits sobre altra base
+  - git reflog:                           Per veure l'historial recent i mostrar tots els moviments recents del HEAD, incloent commits i resets

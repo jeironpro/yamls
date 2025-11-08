@@ -1,31 +1,31 @@
-FUNCIONS DE CADENES EN PYTHON:
-  - .capitalize()                                       -> #
-  - .casefold()                                         -> #
-  - .center(valor)                                      -> #
-  - .count('caracter')                                  -> #
-  - .encode()                                           -> #
-  - .endswith('fragment cadena')                        -> #
-  - .expandtabs(valor)                                  -> #
-  - .find('fragment cadena')                            -> #
-  - .format(format)                                     -> #
-  - .index('fragment cadena')                           -> #
-  - .split(separador)                                   -> #
-  - .replace('fragment a reemplaçar', 'fragment nou')   -> #
-  - .isdigit()                                          -> #
-  - .isalpha()                                          -> #
-  - .zfill()                                            -> #
-  - .upper()                                            -> #
-  - .swapcase()                                         -> #
-  - .isalnum()                                          -> #
-  - .isascii()                                          -> #
-  - .isdecimal()                                        -> #
-  - .isidentifier()                                     -> #
-  - .islower()                                          -> #
-  - .isprintable()                                      -> #
-  - .isspace()                                          -> #
-  - .maketrans()                                        -> #
-  - .rjust(valor)                                       -> #
-  - .rpartition('caracter')                             -> #
-  - .startswith('fragment cadena')                      -> #
-  - .rsplit('caracter')                                 -> #
-  - .splitlines()                                       -> #
+FUNCIONS_DE_CADENES_EN_PYTHON:
+  - .capitalize():                     -> Converteix la primera lletra en majúscula i la resta en minúscules.
+  - .casefold():                       -> Converteix tota la cadena en minúscules de manera més agressiva que .lower(), útil per comparacions.
+  - .center(valor):                    -> Centra la cadena dins d’un espai del tamany indicat, afegint espais o caràcters a banda i banda.
+  - .count('caracter'):                -> Compta quantes vegades apareix un fragment o caràcter dins la cadena.
+  - .encode():                         -> Converteix la cadena en bytes segons una codificació (per defecte UTF-8).
+  - .endswith('cadena'):               -> Retorna True si la cadena acaba amb el fragment indicat.
+  - .expandtabs(valor):                -> Substitueix els tabuladors \\t per espais, segons el valor donat.
+  - .find('cadena'):                   -> Retorna la posició (índex) del primer encontre del fragment, o -1 si no es troba.
+  - .format(format):                   -> Insereix valors dins la cadena utilitzant placeholders {}.
+  - .index('cadena'):                  -> Igual que .find(), però genera un error si no es troba el fragment.
+  - .split(separador):                 -> Divideix la cadena en una llista, utilitzant el separador indicat.
+  - .replace('a reemplaçar', 'nou'):   -> Substitueix totes les ocurrències d’un fragment per un altre.
+  - .isdigit():                        -> Retorna True si tots els caràcters són dígits.
+  - .isalpha():                        -> Retorna True si tots els caràcters són lletres.
+  - .zfill():                          -> Omple la cadena amb zeros a l’esquerra fins a assolir la longitud especificada.
+  - .upper():                          -> Converteix tots els caràcters en majúscules.
+  - .swapcase():                       -> Inverteix el cas majúscules a minúscules i viceversa.
+  - .isalnum():                        -> Retorna True si tots els caràcters són alfanumèrics (lletres o números).
+  - .isascii():                        -> Retorna True si tots els caràcters són ASCII.
+  - .isdecimal():                      -> Retorna True si tots els caràcters són decimals (0-9).
+  - .isidentifier():                   -> Retorna True si la cadena pot ser un identificador vàlid en Python.
+  - .islower():                        -> Retorna True si tots els caràcters són minúscules.
+  - .isprintable():                    -> Retorna True si tots els caràcters són imprimibles.
+  - .isspace():                        -> Retorna True si tots els caràcters són espais o caràcters en blanc.
+  - .maketrans():                      -> Crea una taula de traducció per utilitzar amb .translate().
+  - .rjust(valor):                     -> Justifica la cadena a la dreta dins d’un espai del tamany indicat.
+  - .rpartition('caracter'):           -> Divideix la cadena en tres parts abans, el separador i després (començant per la dreta).
+  - .startswith('cadena'):             -> Retorna True si la cadena comença amb el fragment indicat.
+  - .rsplit('caracter'):               -> Divideix la cadena des del final utilitzant el separador indicat.
+  - .splitlines():                     -> Divideix la cadena en una llista per línies (salt de línia \\n).
