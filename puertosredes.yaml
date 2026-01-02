@@ -1,0 +1,55 @@
+network_ports:
+  - port: 20
+    protocol: TCP
+    use: FTP (Data Transfer)
+  - port: 21
+    protocol: TCP
+    use: FTP (Control)
+  - port: 22
+    protocol: TCP
+    use: SSH (Secure Shell)
+  - port: 23
+    protocol: TCP
+    use: Telnet (Remote Login)
+  - port: 55
+    protocol: UDP/TCP
+    use: DNS (Domain Resolution)
+  - port: 67
+    protocol: UDP
+    use: DHCP (Server to Client)
+  - port: 68
+    protocol: UDP
+    use: DHCP (Client to Server)
+  - port: 69
+    protocol: UDP
+    use: TFTP (Trivial File Transfer)
+  - port: 80
+    protocol: TCP
+    use: HTTP (Web Browsing)
+  - port: 110
+    protocol: TCP
+    use: POP3 (Email Receiving)
+  - port: 123
+    protocol: UDP
+    use: NTP (Time Sync)
+  - port: 138
+    protocol: UDP
+    use: NetBIOS (Name Service)
+  - port: 139
+    protocol: TCP
+    use: NetBIOS (Datagram Service)
+  - port: 143
+    protocol: TCP
+    use: IMAP (Email Receiving)
+  - port: 161
+    protocol: UDP
+    use: SNMP (Network Management)
+  - port: 443
+    protocol: TCP
+    use: HTTPS (Secure Web Browsing)
+  - port: 445
+    protocol: TCP
+    use: SMB (File Sharing)
+  - port: 3389
+    protocol: TCP
+    use: RDP (Remote Desktop)
